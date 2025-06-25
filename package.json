@@ -21,7 +21,8 @@
     },
     "packageManager": "npm@11.4.0",
     "workspaces": [
-        "packages/*"
+        "packages/*",
+        "packages/cms/*"
     ],
     "devDependencies": {
         "@commitlint/cli": "^19.8.1",

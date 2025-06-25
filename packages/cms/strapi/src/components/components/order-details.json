@@ -1,0 +1,96 @@
+{
+    "collectionName": "components_components_order_details",
+    "info": {
+        "displayName": "Order Details",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "fields": {
+            "type": "component",
+            "repeatable": true,
+            "component": "content.field-mapping",
+            "required": true
+        },
+        "productsTitle": {
+            "type": "string"
+        },
+        "table": {
+            "type": "component",
+            "repeatable": false,
+            "component": "content.table",
+            "required": true
+        },
+        "pagination": {
+            "type": "component",
+            "repeatable": false,
+            "component": "content.pagination",
+            "required": false
+        },
+        "filters": {
+            "type": "component",
+            "repeatable": false,
+            "component": "content.filters"
+        },
+        "noResults": {
+            "type": "component",
+            "repeatable": false,
+            "component": "content.banner",
+            "required": true
+        },
+        "statusLadder": {
+            "type": "component",
+            "repeatable": true,
+            "component": "content.message-simple",
+            "required": true
+        },
+        "totalValue": {
+            "type": "component",
+            "repeatable": false,
+            "required": true,
+            "component": "content.information-card"
+        },
+        "createdOrderAt": {
+            "type": "component",
+            "repeatable": false,
+            "component": "content.information-card",
+            "required": true
+        },
+        "paymentDueDate": {
+            "type": "component",
+            "repeatable": false,
+            "component": "content.information-card",
+            "required": true
+        },
+        "overdue": {
+            "type": "component",
+            "repeatable": false,
+            "component": "content.information-card",
+            "required": true
+        },
+        "orderStatus": {
+            "type": "component",
+            "repeatable": false,
+            "required": true,
+            "component": "content.information-card"
+        },
+        "customerComment": {
+            "type": "component",
+            "repeatable": false,
+            "required": true,
+            "component": "content.information-card"
+        },
+        "reorderLabel": {
+            "type": "string"
+        },
+        "trackOrderLabel": {
+            "type": "string"
+        },
+        "payOnlineLabel": {
+            "type": "string"
+        }
+    }
+}

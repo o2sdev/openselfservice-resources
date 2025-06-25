@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_content_messages",
+    "info": {
+        "displayName": "Message",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "richtext",
+            "required": true
+        }
+    }
+}

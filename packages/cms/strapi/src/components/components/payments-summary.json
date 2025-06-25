@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_components_payments_summaries",
+    "info": {
+        "displayName": "Payments Summary",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "overdue": {
+            "type": "component",
+            "repeatable": false,
+            "component": "content.information-card",
+            "required": true
+        },
+        "toBePaid": {
+            "type": "component",
+            "repeatable": false,
+            "component": "content.information-card",
+            "required": true
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "collectionName": "components_content_form_field_with_regexes",
+    "info": {
+        "displayName": "Form Field With Regex",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "label": {
+            "type": "string",
+            "required": true
+        },
+        "placeholder": {
+            "type": "string"
+        },
+        "errorMessages": {
+            "type": "component",
+            "repeatable": true,
+            "component": "content.error-message"
+        },
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "regexValidations": {
+            "type": "component",
+            "repeatable": true,
+            "component": "content.regex-validation",
+            "required": true
+        },
+        "description": {
+            "type": "string"
+        }
+    }
+}

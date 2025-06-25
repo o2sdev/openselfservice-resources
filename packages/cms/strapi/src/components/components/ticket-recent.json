@@ -1,0 +1,26 @@
+{
+    "collectionName": "components_components_ticket_recents",
+    "info": {
+        "displayName": "Ticket Recent",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "commentsTitle": {
+            "type": "string",
+            "required": false
+        },
+        "limit": {
+            "type": "integer",
+            "required": true,
+            "default": 3
+        },
+        "detailsUrl": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "kind": "singleType",
+    "collectionName": "create_new_password_pages",
+    "info": {
+        "singularName": "create-new-password-page",
+        "pluralName": "create-new-password-pages",
+        "displayName": "Create New Password Page",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {
+        "i18n": {
+            "localized": true
+        }
+    },
+    "attributes": {
+        "title": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "subtitle": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "setNewPassword": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "confirmPassword": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "component": "content.form-field",
+            "required": true
+        },
+        "creatingPasswordError": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "password": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "component": "content.form-field-with-regex",
+            "required": true
+        },
+        "SEO": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "component": "seo.seo",
+            "required": true
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": ["images", "files", "videos", "audios"],
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            }
+        }
+    }
+}

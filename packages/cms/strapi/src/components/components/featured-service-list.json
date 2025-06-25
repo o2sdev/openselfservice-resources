@@ -1,0 +1,29 @@
+{
+    "collectionName": "components_components_featured_service_lists",
+    "info": {
+        "displayName": "Featured Service List"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "pagination": {
+            "type": "component",
+            "repeatable": false,
+            "component": "content.pagination"
+        },
+        "noResults": {
+            "type": "component",
+            "repeatable": false,
+            "component": "content.banner",
+            "required": true
+        },
+        "detailsURL": {
+            "type": "string"
+        },
+        "detailsLabel": {
+            "type": "string"
+        }
+    }
+}

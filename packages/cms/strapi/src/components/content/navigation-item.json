@@ -1,0 +1,26 @@
+{
+    "collectionName": "components_content_navigation_items",
+    "info": {
+        "displayName": "Navigation Item",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "label": {
+            "type": "string",
+            "required": true
+        },
+        "url": {
+            "type": "string",
+            "required": false
+        },
+        "description": {
+            "type": "richtext"
+        },
+        "page": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::page.page"
+        }
+    }
+}

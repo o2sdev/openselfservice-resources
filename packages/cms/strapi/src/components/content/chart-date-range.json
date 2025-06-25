@@ -1,0 +1,28 @@
+{
+    "collectionName": "components_content_chart_date_ranges",
+    "info": {
+        "displayName": "Chart Date Range"
+    },
+    "options": {},
+    "attributes": {
+        "label": {
+            "type": "string",
+            "required": true
+        },
+        "value": {
+            "required": true,
+            "type": "integer"
+        },
+        "type": {
+            "type": "enumeration",
+            "enum": ["month", "day"],
+            "default": "month",
+            "required": true
+        },
+        "default": {
+            "type": "boolean",
+            "default": false,
+            "required": true
+        }
+    }
+}
