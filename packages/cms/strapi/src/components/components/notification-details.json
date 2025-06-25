@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_components_notification_details",
+    "info": {
+        "displayName": "Notification Details"
+    },
+    "options": {},
+    "attributes": {
+        "fields": {
+            "type": "component",
+            "repeatable": true,
+            "component": "content.field-mapping"
+        },
+        "properties": {
+            "type": "component",
+            "repeatable": true,
+            "component": "content.key-value"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "kind": "collectionType",
+    "collectionName": "filter_items",
+    "info": {
+        "singularName": "filter-item",
+        "pluralName": "filter-items",
+        "displayName": "Filter item",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {
+        "i18n": {
+            "localized": true
+        }
+    },
+    "attributes": {
+        "name": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "field": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "type": "dynamiczone",
+            "components": [
+                "content.filter-select",
+                "content.filter-date-range"
+            ],
+            "required": true,
+            "min": 1,
+            "max": 1
+        }
+    }
+}

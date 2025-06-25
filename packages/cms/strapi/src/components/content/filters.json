@@ -1,0 +1,36 @@
+{
+    "collectionName": "components_content_filters",
+    "info": {
+        "displayName": "Filters",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "buttonLabel": {
+            "type": "string",
+            "required": true
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "submitLabel": {
+            "type": "string",
+            "required": true
+        },
+        "clearLabel": {
+            "type": "string"
+        },
+        "description": {
+            "type": "richtext"
+        },
+        "items": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::filter-item.filter-item"
+        },
+        "removeFiltersLabel": {
+            "type": "string"
+        }
+    }
+}

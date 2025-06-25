@@ -1,0 +1,71 @@
+{
+    "kind": "collectionType",
+    "collectionName": "components",
+    "info": {
+        "singularName": "component",
+        "pluralName": "components",
+        "displayName": "Component",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {
+        "i18n": {
+            "localized": true
+        }
+    },
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            }
+        },
+        "content": {
+            "type": "dynamiczone",
+            "components": [
+                "components.faq",
+                "components.ticket-list",
+                "components.ticket-details",
+                "components.notification-list",
+                "components.notification-details",
+                "components.invoice-list",
+                "components.payments-summary",
+                "components.payments-history",
+                "components.user-account",
+                "components.quick-links",
+                "components.category",
+                "components.category-list",
+                "components.article-list",
+                "components.service-list",
+                "components.service-details",
+                "components.ticket-recent",
+                "components.survey-js-component",
+                "components.order-list",
+                "components.orders-summary",
+                "components.article",
+                "components.order-details",
+                "components.article-search",
+                "components.featured-service-list"
+            ],
+            "required": true,
+            "min": 1,
+            "max": 1,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_labels_validations",
+    "info": {
+        "displayName": "validation",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "isRequired": {
+            "type": "string",
+            "required": true
+        },
+        "isOptional": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_labels_dates",
+    "info": {
+        "displayName": "dates",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "today": {
+            "type": "string",
+            "required": true
+        },
+        "yesterday": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

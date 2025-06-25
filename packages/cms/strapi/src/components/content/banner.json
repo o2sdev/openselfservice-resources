@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_content_banners",
+    "info": {
+        "displayName": "Text Box with Link",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "button": {
+            "type": "component",
+            "repeatable": false,
+            "component": "content.link"
+        },
+        "description": {
+            "type": "richtext"
+        },
+        "altDescription": {
+            "type": "richtext"
+        }
+    }
+}

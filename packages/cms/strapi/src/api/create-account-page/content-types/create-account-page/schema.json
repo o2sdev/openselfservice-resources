@@ -1,0 +1,354 @@
+{
+    "kind": "singleType",
+    "collectionName": "create_account_pages",
+    "info": {
+        "singularName": "create-account-page",
+        "pluralName": "create-account-pages",
+        "displayName": "Create Account Page",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {
+        "i18n": {
+            "localized": true
+        }
+    },
+    "attributes": {
+        "username": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "component": "content.form-field",
+            "required": true
+        },
+        "taxId": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "component": "content.form-field",
+            "required": true
+        },
+        "firstName": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "component": "content.form-field",
+            "required": true
+        },
+        "lastName": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "component": "content.form-field",
+            "required": true
+        },
+        "companyName": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "component": "content.form-field",
+            "required": true
+        },
+        "clientId": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "component": "content.form-field",
+            "required": true
+        },
+        "phone": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "required": true,
+            "component": "content.form-field"
+        },
+        "invalidCredentials": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "badge": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "changeCompanyTaxIdLabel": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "companySectionTitle": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "userSectionTitle": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "termsAndConditions": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "richtext",
+            "required": true
+        },
+        "creatingAccountProblem": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "step1Title": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "step1Subtitle": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "step1SubmitButton": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "step2Title": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "step2Subtitle": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "step2SubmitButton": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "signInTitle": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        },
+        "signInButton": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "component": "content.link",
+            "required": true
+        },
+        "sideContent": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "component": "content.list-with-icons",
+            "required": true
+        },
+        "SEO": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "required": true,
+            "component": "seo.seo"
+        },
+        "position": {
+            "type": "component",
+            "repeatable": false,
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "component": "content.form-select-field",
+            "required": true
+        },
+        "activationContactInfo": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                },
+                "translate": {
+                    "translate": "translate"
+                }
+            },
+            "type": "string",
+            "required": true
+        }
+    }
+}

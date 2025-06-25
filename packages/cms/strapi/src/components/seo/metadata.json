@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_seo_metadata",
+    "info": {
+        "displayName": "metadata"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "date": {
+            "type": "datetime"
+        }
+    }
+}

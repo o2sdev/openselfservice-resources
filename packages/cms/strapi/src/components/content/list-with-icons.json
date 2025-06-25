@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_content_list_with_icons",
+    "info": {
+        "displayName": "List With Icons",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "icons": {
+            "type": "component",
+            "repeatable": true,
+            "component": "content.icon-with-text",
+            "required": true
+        }
+    }
+}

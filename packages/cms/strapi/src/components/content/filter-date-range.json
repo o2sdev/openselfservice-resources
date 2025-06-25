@@ -1,0 +1,26 @@
+{
+    "collectionName": "components_content_filter_date_ranges",
+    "info": {
+        "displayName": "Filter > Date Range",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "field": {
+            "type": "string",
+            "required": true
+        },
+        "label": {
+            "type": "string",
+            "required": true
+        },
+        "from": {
+            "type": "string",
+            "required": true
+        },
+        "to": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

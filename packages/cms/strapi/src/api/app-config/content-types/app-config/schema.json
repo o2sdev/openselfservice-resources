@@ -1,0 +1,40 @@
+{
+    "kind": "singleType",
+    "collectionName": "app_configs",
+    "info": {
+        "singularName": "app-config",
+        "pluralName": "app-configs",
+        "displayName": "App Config",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {
+        "i18n": {
+            "localized": true
+        }
+    },
+    "attributes": {
+        "signedInHeader": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::header.header"
+        },
+        "signedOutHeader": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::header.header"
+        },
+        "signedOutFooter": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::footer.footer"
+        },
+        "signedInFooter": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::footer.footer"
+        }
+    }
+}

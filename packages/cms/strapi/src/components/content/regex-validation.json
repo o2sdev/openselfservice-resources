@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_content_regex_validations",
+    "info": {
+        "displayName": "Regex Validation",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "type": {
+            "type": "string",
+            "required": true
+        },
+        "label": {
+            "type": "string",
+            "required": true
+        },
+        "regex": {
+            "type": "string",
+            "required": true
+        }
+    }
+}
