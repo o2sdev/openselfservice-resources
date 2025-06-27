@@ -2,7 +2,11 @@
 
 # Open Self Service (O2S) — Resources
 
-TODO
+This repository acts as a base of various resources for various external tools that are integrated into the O2S. Here we will be uploading content like:
+
+- CMS configuration (content models, plugins, etc.) as well as sample content to make a quick start as easy as possible,
+- initial products and assets for commerce engines,
+- pre-configure CI/CD pipelines for deploying the O2S.
 
 ## 🤝 Contributing
 
