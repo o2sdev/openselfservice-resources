@@ -1,17 +1,17 @@
 {
-    "collectionName": "components_components_survey_js_components",
-    "info": {
-        "displayName": "SurveyJS Component"
+  "collectionName": "components_components_survey_js_components",
+  "info": {
+    "displayName": "SurveyJS Component"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string"
-        },
-        "survey_js_form": {
-            "type": "relation",
-            "relation": "oneToOne",
-            "target": "api::survey-js-form.survey-js-form"
-        }
+    "survey_js_form": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::survey-js-form.survey-js-form"
     }
+  }
 }

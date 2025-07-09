@@ -1,31 +1,31 @@
 {
-    "collectionName": "components_templates_two_columns",
-    "info": {
-        "displayName": "Two column",
-        "icon": "apps",
-        "description": ""
+  "collectionName": "components_templates_two_columns",
+  "info": {
+    "displayName": "Two column",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "topSlot": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::component.component"
     },
-    "options": {},
-    "attributes": {
-        "topSlot": {
-            "type": "relation",
-            "relation": "oneToMany",
-            "target": "api::component.component"
-        },
-        "leftSlot": {
-            "type": "relation",
-            "relation": "oneToMany",
-            "target": "api::component.component"
-        },
-        "rightSlot": {
-            "type": "relation",
-            "relation": "oneToMany",
-            "target": "api::component.component"
-        },
-        "bottomSlot": {
-            "type": "relation",
-            "relation": "oneToMany",
-            "target": "api::component.component"
-        }
+    "leftSlot": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::component.component"
+    },
+    "rightSlot": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::component.component"
+    },
+    "bottomSlot": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::component.component"
     }
+  }
 }

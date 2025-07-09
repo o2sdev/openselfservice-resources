@@ -1,28 +1,28 @@
 {
-    "collectionName": "components_content_information_cards",
-    "info": {
-        "displayName": "Information Card",
-        "description": ""
+  "collectionName": "components_content_information_cards",
+  "info": {
+    "displayName": "Information Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string",
-            "required": true
-        },
-        "message": {
-            "type": "string"
-        },
-        "altMessage": {
-            "type": "string"
-        },
-        "link": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.link"
-        },
-        "icon": {
-            "type": "string"
-        }
+    "message": {
+      "type": "string"
+    },
+    "altMessage": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.link"
+    },
+    "icon": {
+      "type": "string"
     }
+  }
 }

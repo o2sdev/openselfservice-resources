@@ -1,202 +1,207 @@
 {
-    "kind": "singleType",
-    "collectionName": "login_pages",
-    "info": {
-        "singularName": "login-page",
-        "pluralName": "login-pages",
-        "displayName": "Login Page",
-        "description": ""
-    },
-    "options": {
-        "draftAndPublish": true
-    },
-    "pluginOptions": {
-        "i18n": {
-            "localized": true
-        }
-    },
-    "attributes": {
-        "title": {
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "type": "string",
-            "required": true
-        },
-        "subtitle": {
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "type": "string",
-            "required": false
-        },
-        "signIn": {
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "type": "string",
-            "required": true
-        },
-        "providersLabel": {
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "type": "string"
-        },
-        "providersTitle": {
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "type": "string"
-        },
-        "password": {
-            "type": "component",
-            "repeatable": false,
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "component": "content.form-field",
-            "required": true
-        },
-        "username": {
-            "type": "component",
-            "repeatable": false,
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "component": "content.form-field",
-            "required": true
-        },
-        "image": {
-            "type": "media",
-            "multiple": false,
-            "required": false,
-            "allowedTypes": ["images", "files", "videos", "audios"],
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            }
-        },
-        "SEO": {
-            "type": "component",
-            "repeatable": false,
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "component": "seo.seo",
-            "required": true
-        },
-        "invalidCredentials": {
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "type": "text",
-            "required": true
-        },
-        "forgotPassword": {
-            "type": "component",
-            "repeatable": false,
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "component": "content.link",
-            "required": true
-        },
-        "newPasswordMessage": {
-            "type": "component",
-            "repeatable": false,
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "component": "content.alert-box",
-            "required": true
-        },
-        "resetPasswordMessage": {
-            "type": "component",
-            "repeatable": false,
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "component": "content.alert-box",
-            "required": true
-        },
-        "createAccountMessage": {
-            "type": "component",
-            "repeatable": false,
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "component": "content.alert-box",
-            "required": true
-        }
+  "kind": "singleType",
+  "collectionName": "login_pages",
+  "info": {
+    "singularName": "login-page",
+    "pluralName": "login-pages",
+    "displayName": "Login Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
     }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "string",
+      "required": false
+    },
+    "signIn": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "providersLabel": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "string"
+    },
+    "providersTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "string"
+    },
+    "password": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "content.form-field",
+      "required": true
+    },
+    "username": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "content.form-field",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "seo.seo",
+      "required": true
+    },
+    "invalidCredentials": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "text",
+      "required": true
+    },
+    "forgotPassword": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "content.link",
+      "required": true
+    },
+    "newPasswordMessage": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "content.alert-box",
+      "required": true
+    },
+    "resetPasswordMessage": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "content.alert-box",
+      "required": true
+    },
+    "createAccountMessage": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "content.alert-box",
+      "required": true
+    }
+  }
 }

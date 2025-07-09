@@ -1,35 +1,35 @@
 {
-    "collectionName": "components_components_article_lists",
-    "info": {
-        "displayName": "Article List",
-        "description": ""
+  "collectionName": "components_components_article_lists",
+  "info": {
+    "displayName": "Article List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string"
-        },
-        "description": {
-            "type": "richtext"
-        },
-        "category": {
-            "type": "relation",
-            "relation": "oneToOne",
-            "target": "api::category.category"
-        },
-        "pages": {
-            "type": "relation",
-            "relation": "oneToMany",
-            "target": "api::page.page"
-        },
-        "articles_to_show": {
-            "type": "integer",
-            "min": 1
-        },
-        "parent": {
-            "type": "relation",
-            "relation": "oneToOne",
-            "target": "api::page.page"
-        }
+    "description": {
+      "type": "richtext"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page"
+    },
+    "articles_to_show": {
+      "type": "integer",
+      "min": 1
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
     }
+  }
 }

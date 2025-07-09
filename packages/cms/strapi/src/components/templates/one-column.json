@@ -1,16 +1,16 @@
 {
-    "collectionName": "components_templates_one_columns",
-    "info": {
-        "displayName": "One column",
-        "icon": "apps",
-        "description": ""
-    },
-    "options": {},
-    "attributes": {
-        "mainSlot": {
-            "type": "relation",
-            "relation": "oneToMany",
-            "target": "api::component.component"
-        }
+  "collectionName": "components_templates_one_columns",
+  "info": {
+    "displayName": "One column",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mainSlot": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::component.component"
     }
+  }
 }

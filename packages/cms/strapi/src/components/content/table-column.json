@@ -1,17 +1,17 @@
 {
-    "collectionName": "components_content_table_columns",
-    "info": {
-        "displayName": "Table column"
+  "collectionName": "components_content_table_columns",
+  "info": {
+    "displayName": "Table column"
+  },
+  "options": {},
+  "attributes": {
+    "field": {
+      "type": "string",
+      "required": true
     },
-    "options": {},
-    "attributes": {
-        "field": {
-            "type": "string",
-            "required": true
-        },
-        "title": {
-            "type": "string",
-            "required": true
-        }
+    "title": {
+      "type": "string",
+      "required": true
     }
+  }
 }

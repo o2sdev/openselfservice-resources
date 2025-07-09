@@ -1,32 +1,32 @@
 {
-    "collectionName": "components_content_paginations",
-    "info": {
-        "displayName": "Pagination",
-        "description": ""
+  "collectionName": "components_content_paginations",
+  "info": {
+    "displayName": "Pagination",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": true
     },
-    "options": {},
-    "attributes": {
-        "description": {
-            "type": "string",
-            "required": true
-        },
-        "perPage": {
-            "type": "integer",
-            "default": 5,
-            "required": true,
-            "min": 1
-        },
-        "previousLabel": {
-            "type": "string",
-            "required": true
-        },
-        "nextLabel": {
-            "type": "string",
-            "required": true
-        },
-        "selectPageLabel": {
-            "type": "string",
-            "required": true
-        }
+    "perPage": {
+      "type": "integer",
+      "default": 5,
+      "required": true,
+      "min": 1
+    },
+    "previousLabel": {
+      "type": "string",
+      "required": true
+    },
+    "nextLabel": {
+      "type": "string",
+      "required": true
+    },
+    "selectPageLabel": {
+      "type": "string",
+      "required": true
     }
+  }
 }

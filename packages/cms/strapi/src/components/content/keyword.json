@@ -1,13 +1,13 @@
 {
-    "collectionName": "components_content_keywords",
-    "info": {
-        "displayName": "Keyword"
-    },
-    "options": {},
-    "attributes": {
-        "keyword": {
-            "type": "string",
-            "required": true
-        }
+  "collectionName": "components_content_keywords",
+  "info": {
+    "displayName": "Keyword"
+  },
+  "options": {},
+  "attributes": {
+    "keyword": {
+      "type": "string",
+      "required": true
     }
+  }
 }

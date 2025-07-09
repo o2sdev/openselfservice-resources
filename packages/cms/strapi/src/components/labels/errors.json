@@ -1,16 +1,16 @@
 {
-    "collectionName": "components_labels_errors",
-    "info": {
-        "displayName": "Errors",
-        "description": ""
-    },
-    "options": {},
-    "attributes": {
-        "requestError": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.message-simple",
-            "required": true
-        }
+  "collectionName": "components_labels_errors",
+  "info": {
+    "displayName": "Errors",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "requestError": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.message-simple",
+      "required": true
     }
+  }
 }

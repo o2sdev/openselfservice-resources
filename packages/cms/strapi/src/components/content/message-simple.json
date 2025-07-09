@@ -1,18 +1,18 @@
 {
-    "collectionName": "components_content_message_simples",
-    "info": {
-        "displayName": "Message Simple",
-        "description": ""
+  "collectionName": "components_content_message_simples",
+  "info": {
+    "displayName": "Message Simple",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string",
-            "required": true
-        },
-        "content": {
-            "type": "text",
-            "required": false
-        }
+    "content": {
+      "type": "text",
+      "required": false
     }
+  }
 }

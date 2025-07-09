@@ -1,79 +1,79 @@
 {
-    "kind": "singleType",
-    "collectionName": "configurable_textss",
-    "info": {
-        "singularName": "configurable-texts",
-        "pluralName": "configurable-textss",
-        "displayName": "Configurable Texts",
-        "description": ""
-    },
-    "options": {
-        "draftAndPublish": true
-    },
-    "pluginOptions": {
-        "i18n": {
-            "localized": true
-        }
-    },
-    "attributes": {
-        "dates": {
-            "displayName": "dates",
-            "type": "component",
-            "repeatable": false,
-            "component": "labels.dates",
-            "required": true,
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            }
-        },
-        "actions": {
-            "displayName": "Actions",
-            "type": "component",
-            "repeatable": false,
-            "component": "labels.actions",
-            "required": true,
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            }
-        },
-        "errors": {
-            "type": "component",
-            "repeatable": false,
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "component": "labels.errors",
-            "required": true
-        },
-        "validation": {
-            "displayName": "validation",
-            "type": "component",
-            "repeatable": false,
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "component": "labels.validation",
-            "required": true
-        }
+  "kind": "singleType",
+  "collectionName": "configurable_textss",
+  "info": {
+    "singularName": "configurable-texts",
+    "pluralName": "configurable-textss",
+    "displayName": "Configurable Texts",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
     }
+  },
+  "attributes": {
+    "dates": {
+      "displayName": "dates",
+      "type": "component",
+      "repeatable": false,
+      "component": "labels.dates",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "actions": {
+      "displayName": "Actions",
+      "type": "component",
+      "repeatable": false,
+      "component": "labels.actions",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "errors": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "labels.errors",
+      "required": true
+    },
+    "validation": {
+      "displayName": "validation",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "labels.validation",
+      "required": true
+    }
+  }
 }

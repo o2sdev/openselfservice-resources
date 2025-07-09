@@ -1,34 +1,34 @@
 {
-    "collectionName": "components_components_ticket_details",
-    "info": {
-        "displayName": "Ticket Details",
-        "description": ""
+  "collectionName": "components_components_ticket_details",
+  "info": {
+    "displayName": "Ticket Details",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string",
-            "required": false
-        },
-        "fields": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.field-mapping",
-            "required": true
-        },
-        "commentsTitle": {
-            "type": "string",
-            "required": false
-        },
-        "attachmentsTitle": {
-            "type": "string",
-            "required": false
-        },
-        "properties": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.key-value",
-            "required": true
-        }
+    "fields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.field-mapping",
+      "required": true
+    },
+    "commentsTitle": {
+      "type": "string",
+      "required": false
+    },
+    "attachmentsTitle": {
+      "type": "string",
+      "required": false
+    },
+    "properties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.key-value",
+      "required": true
     }
+  }
 }

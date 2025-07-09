@@ -1,17 +1,17 @@
 {
-    "collectionName": "components_content_article_sections",
-    "info": {
-        "displayName": "Article section"
+  "collectionName": "components_content_article_sections",
+  "info": {
+    "displayName": "Article section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string",
-            "required": false
-        },
-        "content": {
-            "type": "richtext",
-            "required": true
-        }
+    "content": {
+      "type": "richtext",
+      "required": true
     }
+  }
 }

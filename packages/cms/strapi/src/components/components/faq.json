@@ -1,27 +1,27 @@
 {
-    "collectionName": "components_components_faqs",
-    "info": {
-        "displayName": "FAQ",
-        "description": ""
+  "collectionName": "components_components_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string"
-        },
-        "subtitle": {
-            "type": "string"
-        },
-        "banner": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.banner"
-        },
-        "items": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.message",
-            "required": false
-        }
+    "subtitle": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.banner"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.message",
+      "required": false
     }
+  }
 }

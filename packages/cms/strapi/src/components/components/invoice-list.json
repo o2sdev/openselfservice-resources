@@ -1,54 +1,54 @@
 {
-    "collectionName": "components_components_invoice_lists",
-    "info": {
-        "displayName": "Invoice List",
-        "description": ""
+  "collectionName": "components_components_invoice_lists",
+  "info": {
+    "displayName": "Invoice List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string"
-        },
-        "fields": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.field-mapping",
-            "required": true
-        },
-        "table": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.table",
-            "required": true
-        },
-        "pagination": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.pagination",
-            "required": false
-        },
-        "filters": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.filters",
-            "required": false
-        },
-        "noResults": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.banner",
-            "required": true
-        },
-        "tableTitle": {
-            "type": "string",
-            "required": false
-        },
-        "downloadFileName": {
-            "type": "string",
-            "required": false
-        },
-        "downloadButtonAriaDescription": {
-            "type": "string"
-        }
+    "fields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.field-mapping",
+      "required": true
+    },
+    "table": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.table",
+      "required": true
+    },
+    "pagination": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.pagination",
+      "required": false
+    },
+    "filters": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.filters",
+      "required": false
+    },
+    "noResults": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.banner",
+      "required": true
+    },
+    "tableTitle": {
+      "type": "string",
+      "required": false
+    },
+    "downloadFileName": {
+      "type": "string",
+      "required": false
+    },
+    "downloadButtonAriaDescription": {
+      "type": "string"
     }
+  }
 }

@@ -1,22 +1,27 @@
 {
-    "collectionName": "components_content_error_messages",
-    "info": {
-        "displayName": "Error Message"
+  "collectionName": "components_content_error_messages",
+  "info": {
+    "displayName": "Error Message"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
     },
-    "options": {},
-    "attributes": {
-        "name": {
-            "type": "string",
-            "required": true
-        },
-        "type": {
-            "type": "enumeration",
-            "enum": ["required", "min", "max", "matches"],
-            "required": true
-        },
-        "description": {
-            "type": "text",
-            "required": true
-        }
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "required",
+        "min",
+        "max",
+        "matches"
+      ],
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
     }
+  }
 }

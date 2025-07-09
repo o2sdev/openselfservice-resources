@@ -1,28 +1,28 @@
 {
-    "collectionName": "components_components_user_accounts",
-    "info": {
-        "displayName": "User Account",
-        "description": ""
+  "collectionName": "components_components_user_accounts",
+  "info": {
+    "displayName": "User Account",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string",
-            "required": false
-        },
-        "basicInformationTitle": {
-            "type": "string",
-            "required": true
-        },
-        "basicInformationDescription": {
-            "type": "richtext",
-            "required": true
-        },
-        "inputs": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.form-field",
-            "required": true
-        }
+    "basicInformationTitle": {
+      "type": "string",
+      "required": true
+    },
+    "basicInformationDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "inputs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.form-field",
+      "required": true
     }
+  }
 }

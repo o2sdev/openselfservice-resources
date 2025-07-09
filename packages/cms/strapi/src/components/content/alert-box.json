@@ -1,18 +1,18 @@
 {
-    "collectionName": "components_content_alert_boxes",
-    "info": {
-        "displayName": "AlertBox",
-        "description": ""
+  "collectionName": "components_content_alert_boxes",
+  "info": {
+    "displayName": "AlertBox",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string",
-            "required": true
-        },
-        "description": {
-            "type": "string",
-            "required": false
-        }
+    "description": {
+      "type": "string",
+      "required": false
     }
+  }
 }
