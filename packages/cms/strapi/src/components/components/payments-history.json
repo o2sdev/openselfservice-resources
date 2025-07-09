@@ -1,28 +1,28 @@
 {
-    "collectionName": "components_components_payments_histories",
-    "info": {
-        "displayName": "Payments History",
-        "description": ""
+  "collectionName": "components_components_payments_histories",
+  "info": {
+    "displayName": "Payments History",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string"
-        },
-        "topSegment": {
-            "type": "string"
-        },
-        "middleSegment": {
-            "type": "string"
-        },
-        "bottomSegment": {
-            "type": "string"
-        },
-        "total": {
-            "type": "string"
-        },
-        "monthsToShow": {
-            "type": "integer"
-        }
+    "topSegment": {
+      "type": "string"
+    },
+    "middleSegment": {
+      "type": "string"
+    },
+    "bottomSegment": {
+      "type": "string"
+    },
+    "total": {
+      "type": "string"
+    },
+    "monthsToShow": {
+      "type": "integer"
     }
+  }
 }

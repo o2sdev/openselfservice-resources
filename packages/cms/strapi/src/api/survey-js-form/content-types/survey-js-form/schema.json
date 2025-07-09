@@ -1,50 +1,52 @@
 {
-    "kind": "collectionType",
-    "collectionName": "survey_js_forms",
-    "info": {
-        "singularName": "survey-js-form",
-        "pluralName": "survey-js-forms",
-        "displayName": "SurveyJS Form",
-        "description": ""
+  "kind": "collectionType",
+  "collectionName": "survey_js_forms",
+  "info": {
+    "singularName": "survey-js-form",
+    "pluralName": "survey-js-forms",
+    "displayName": "SurveyJS Form",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "surveyId": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
     },
-    "options": {
-        "draftAndPublish": true
+    "code": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
     },
-    "pluginOptions": {},
-    "attributes": {
-        "surveyId": {
-            "pluginOptions": {},
-            "type": "string",
-            "required": true
-        },
-        "code": {
-            "pluginOptions": {},
-            "type": "string",
-            "required": true
-        },
-        "surveyType": {
-            "pluginOptions": {},
-            "type": "string",
-            "required": true
-        },
-        "postId": {
-            "pluginOptions": {},
-            "type": "string",
-            "required": true
-        },
-        "submitDestination": {
-            "type": "customField",
-            "default": "[]",
-            "options": ["surveyjs", "message-broker"],
-            "customField": "plugin::multi-select.multi-select",
-            "required": false
-        },
-        "requiredRoles": {
-            "type": "customField",
-            "default": "[]",
-            "options": ["selfservice_user", "selfservice_admin"],
-            "customField": "plugin::multi-select.multi-select",
-            "required": true
-        }
+    "surveyType": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "postId": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "submitDestination": {
+      "type": "customField",
+      "default": "[]",
+      "options": [
+        "surveyjs",
+        "message-broker"
+      ],
+      "customField": "plugin::multi-select.multi-select",
+      "required": false
+    },
+    "requiredRoles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.user-roles",
+      "required": true
     }
+  }
 }

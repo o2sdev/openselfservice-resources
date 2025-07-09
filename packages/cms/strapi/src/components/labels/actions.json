@@ -1,103 +1,103 @@
 {
-    "collectionName": "components_labels_actions",
-    "info": {
-        "displayName": "Actions",
-        "description": ""
+  "collectionName": "components_labels_actions",
+  "info": {
+    "displayName": "Actions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "showMore": {
+      "type": "string",
+      "required": true
     },
-    "options": {},
-    "attributes": {
-        "showMore": {
-            "type": "string",
-            "required": true
-        },
-        "showLess": {
-            "type": "string",
-            "required": true
-        },
-        "show": {
-            "type": "string",
-            "required": true
-        },
-        "hide": {
-            "type": "string",
-            "required": true
-        },
-        "clear": {
-            "type": "string",
-            "required": true
-        },
-        "apply": {
-            "type": "string",
-            "required": true
-        },
-        "edit": {
-            "type": "string",
-            "required": true
-        },
-        "cancel": {
-            "type": "string",
-            "required": true
-        },
-        "save": {
-            "type": "string",
-            "required": true
-        },
-        "delete": {
-            "type": "string",
-            "required": true
-        },
-        "logIn": {
-            "type": "string",
-            "required": true
-        },
-        "logOut": {
-            "type": "string",
-            "required": true
-        },
-        "renew": {
-            "type": "string",
-            "required": true
-        },
-        "settings": {
-            "type": "string",
-            "required": true
-        },
-        "details": {
-            "type": "string",
-            "required": true
-        },
-        "close": {
-            "type": "string",
-            "required": true
-        },
-        "reorder": {
-            "type": "string",
-            "required": true
-        },
-        "clickToSelect": {
-            "type": "string",
-            "default": " ",
-            "required": true
-        },
-        "trackOrder": {
-            "type": "string",
-            "required": true
-        },
-        "payOnline": {
-            "type": "string",
-            "required": true
-        },
-        "showAllArticles": {
-            "type": "string",
-            "required": true
-        },
-        "on": {
-            "type": "string",
-            "required": true
-        },
-        "off": {
-            "type": "string",
-            "required": true
-        }
+    "showLess": {
+      "type": "string",
+      "required": true
+    },
+    "show": {
+      "type": "string",
+      "required": true
+    },
+    "hide": {
+      "type": "string",
+      "required": true
+    },
+    "clear": {
+      "type": "string",
+      "required": true
+    },
+    "apply": {
+      "type": "string",
+      "required": true
+    },
+    "edit": {
+      "type": "string",
+      "required": true
+    },
+    "cancel": {
+      "type": "string",
+      "required": true
+    },
+    "save": {
+      "type": "string",
+      "required": true
+    },
+    "delete": {
+      "type": "string",
+      "required": true
+    },
+    "logIn": {
+      "type": "string",
+      "required": true
+    },
+    "logOut": {
+      "type": "string",
+      "required": true
+    },
+    "renew": {
+      "type": "string",
+      "required": true
+    },
+    "settings": {
+      "type": "string",
+      "required": true
+    },
+    "details": {
+      "type": "string",
+      "required": true
+    },
+    "close": {
+      "type": "string",
+      "required": true
+    },
+    "reorder": {
+      "type": "string",
+      "required": true
+    },
+    "clickToSelect": {
+      "type": "string",
+      "default": " ",
+      "required": true
+    },
+    "trackOrder": {
+      "type": "string",
+      "required": true
+    },
+    "payOnline": {
+      "type": "string",
+      "required": true
+    },
+    "showAllArticles": {
+      "type": "string",
+      "required": true
+    },
+    "on": {
+      "type": "string",
+      "required": true
+    },
+    "off": {
+      "type": "string",
+      "required": true
     }
+  }
 }

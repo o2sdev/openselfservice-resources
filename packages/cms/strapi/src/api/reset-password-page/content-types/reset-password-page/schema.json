@@ -1,110 +1,115 @@
 {
-    "kind": "singleType",
-    "collectionName": "reset_password_pages",
-    "info": {
-        "singularName": "reset-password-page",
-        "pluralName": "reset-password-pages",
-        "displayName": "Reset Password Page",
-        "description": ""
-    },
-    "options": {
-        "draftAndPublish": true
-    },
-    "pluginOptions": {
-        "i18n": {
-            "localized": true
-        }
-    },
-    "attributes": {
-        "title": {
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "type": "string",
-            "required": true
-        },
-        "subtitle": {
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "type": "string",
-            "required": true
-        },
-        "username": {
-            "type": "component",
-            "repeatable": false,
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "component": "content.form-field",
-            "required": true
-        },
-        "image": {
-            "type": "media",
-            "multiple": false,
-            "required": true,
-            "allowedTypes": ["images", "files", "videos", "audios"],
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            }
-        },
-        "SEO": {
-            "type": "component",
-            "repeatable": false,
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "component": "seo.seo",
-            "required": true
-        },
-        "invalidCredentials": {
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "type": "string",
-            "required": true
-        },
-        "resetPassword": {
-            "pluginOptions": {
-                "i18n": {
-                    "localized": true
-                },
-                "translate": {
-                    "translate": "translate"
-                }
-            },
-            "type": "string",
-            "required": true
-        }
+  "kind": "singleType",
+  "collectionName": "reset_password_pages",
+  "info": {
+    "singularName": "reset-password-page",
+    "pluralName": "reset-password-pages",
+    "displayName": "Reset Password Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
     }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "username": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "content.form-field",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "seo.seo",
+      "required": true
+    },
+    "invalidCredentials": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "resetPassword": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "string",
+      "required": true
+    }
+  }
 }

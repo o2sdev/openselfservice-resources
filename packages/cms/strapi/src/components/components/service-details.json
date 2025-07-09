@@ -1,25 +1,25 @@
 {
-    "collectionName": "components_components_service_details",
-    "info": {
-        "displayName": "Service Details",
-        "description": ""
+  "collectionName": "components_components_service_details",
+  "info": {
+    "displayName": "Service Details",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string"
-        },
-        "properties": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.key-value",
-            "required": true
-        },
-        "fields": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.field-mapping",
-            "required": true
-        }
+    "properties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.key-value",
+      "required": true
+    },
+    "fields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.field-mapping",
+      "required": true
     }
+  }
 }

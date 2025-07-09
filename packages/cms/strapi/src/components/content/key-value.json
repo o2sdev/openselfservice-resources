@@ -1,17 +1,17 @@
 {
-    "collectionName": "components_content_key_values",
-    "info": {
-        "displayName": "Key Value"
+  "collectionName": "components_content_key_values",
+  "info": {
+    "displayName": "Key Value"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true
     },
-    "options": {},
-    "attributes": {
-        "key": {
-            "type": "string",
-            "required": true
-        },
-        "value": {
-            "type": "string",
-            "required": true
-        }
+    "value": {
+      "type": "string",
+      "required": true
     }
+  }
 }

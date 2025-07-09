@@ -1,72 +1,72 @@
 {
-    "collectionName": "components_components_orders_summaries",
-    "info": {
-        "displayName": "Orders Summary",
-        "description": ""
+  "collectionName": "components_components_orders_summaries",
+  "info": {
+    "displayName": "Orders Summary",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string"
-        },
-        "subtitle": {
-            "type": "string"
-        },
-        "totalValueTitle": {
-            "type": "string",
-            "required": true
-        },
-        "averageNumberTitle": {
-            "type": "string",
-            "required": true
-        },
-        "averageValueTitle": {
-            "type": "string",
-            "required": true
-        },
-        "chartTitle": {
-            "type": "string",
-            "required": true
-        },
-        "ranges": {
-            "displayName": "Chart Date Range",
-            "type": "component",
-            "repeatable": true,
-            "component": "content.chart-date-range",
-            "required": false,
-            "min": 2
-        },
-        "noResults": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.banner",
-            "required": true
-        },
-        "chartPreviousPeriodLabel": {
-            "type": "string",
-            "required": true
-        },
-        "chartCurrentPeriodLabel": {
-            "type": "string",
-            "required": true
-        },
-        "totalValue": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.information-card",
-            "required": true
-        },
-        "averageNumber": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.information-card",
-            "required": true
-        },
-        "averageValue": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.information-card",
-            "required": true
-        }
+    "subtitle": {
+      "type": "string"
+    },
+    "totalValueTitle": {
+      "type": "string",
+      "required": true
+    },
+    "averageNumberTitle": {
+      "type": "string",
+      "required": true
+    },
+    "averageValueTitle": {
+      "type": "string",
+      "required": true
+    },
+    "chartTitle": {
+      "type": "string",
+      "required": true
+    },
+    "ranges": {
+      "displayName": "Chart Date Range",
+      "type": "component",
+      "repeatable": true,
+      "component": "content.chart-date-range",
+      "required": false,
+      "min": 2
+    },
+    "noResults": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.banner",
+      "required": true
+    },
+    "chartPreviousPeriodLabel": {
+      "type": "string",
+      "required": true
+    },
+    "chartCurrentPeriodLabel": {
+      "type": "string",
+      "required": true
+    },
+    "totalValue": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.information-card",
+      "required": true
+    },
+    "averageNumber": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.information-card",
+      "required": true
+    },
+    "averageValue": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.information-card",
+      "required": true
     }
+  }
 }

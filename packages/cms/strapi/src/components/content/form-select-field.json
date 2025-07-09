@@ -1,36 +1,36 @@
 {
-    "collectionName": "components_content_form_select_fields",
-    "info": {
-        "displayName": "Form Select Field",
-        "description": ""
+  "collectionName": "components_content_form_select_fields",
+  "info": {
+    "displayName": "Form Select Field",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
     },
-    "options": {},
-    "attributes": {
-        "label": {
-            "type": "string",
-            "required": true
-        },
-        "placeholder": {
-            "type": "string",
-            "required": false
-        },
-        "errorMessages": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.error-message"
-        },
-        "name": {
-            "type": "string",
-            "required": true
-        },
-        "description": {
-            "type": "string"
-        },
-        "options": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.key-value",
-            "required": true
-        }
+    "placeholder": {
+      "type": "string",
+      "required": false
+    },
+    "errorMessages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.error-message"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.key-value",
+      "required": true
     }
+  }
 }

@@ -1,20 +1,20 @@
 {
-    "collectionName": "components_content_icon_with_texts",
-    "info": {
-        "displayName": "Icon With Text"
+  "collectionName": "components_content_icon_with_texts",
+  "info": {
+    "displayName": "Icon With Text"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
     },
-    "options": {},
-    "attributes": {
-        "name": {
-            "type": "string",
-            "required": true
-        },
-        "title": {
-            "type": "string",
-            "required": false
-        },
-        "description": {
-            "type": "string"
-        }
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "string"
     }
+  }
 }

@@ -1,23 +1,23 @@
 {
-    "collectionName": "components_components_quick_links",
-    "info": {
-        "displayName": "Quick Links",
-        "description": ""
+  "collectionName": "components_components_quick_links",
+  "info": {
+    "displayName": "Quick Links",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string"
-        },
-        "description": {
-            "type": "richtext"
-        },
-        "items": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.link",
-            "required": true,
-            "min": 1
-        }
+    "description": {
+      "type": "richtext"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.link",
+      "required": true,
+      "min": 1
     }
+  }
 }

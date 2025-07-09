@@ -1,50 +1,50 @@
 {
-    "collectionName": "components_components_order_lists",
-    "info": {
-        "displayName": "Order List",
-        "description": ""
+  "collectionName": "components_components_order_lists",
+  "info": {
+    "displayName": "Order List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string"
-        },
-        "subtitle": {
-            "type": "string"
-        },
-        "table": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.table",
-            "required": true
-        },
-        "fields": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.field-mapping",
-            "required": true
-        },
-        "pagination": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.pagination"
-        },
-        "filters": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.filters"
-        },
-        "noResults": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.banner",
-            "required": true
-        },
-        "detailsURL": {
-            "type": "string"
-        },
-        "reorderLabel": {
-            "type": "string"
-        }
+    "subtitle": {
+      "type": "string"
+    },
+    "table": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.table",
+      "required": true
+    },
+    "fields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.field-mapping",
+      "required": true
+    },
+    "pagination": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.pagination"
+    },
+    "filters": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.filters"
+    },
+    "noResults": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.banner",
+      "required": true
+    },
+    "detailsURL": {
+      "type": "string"
+    },
+    "reorderLabel": {
+      "type": "string"
     }
+  }
 }

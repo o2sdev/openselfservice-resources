@@ -1,29 +1,29 @@
 {
-    "collectionName": "components_content_filter_selects",
-    "info": {
-        "displayName": "Filter > Select"
+  "collectionName": "components_content_filter_selects",
+  "info": {
+    "displayName": "Filter > Select"
+  },
+  "options": {},
+  "attributes": {
+    "field": {
+      "type": "string",
+      "required": true
     },
-    "options": {},
-    "attributes": {
-        "field": {
-            "type": "string",
-            "required": true
-        },
-        "label": {
-            "type": "string",
-            "required": true
-        },
-        "multiple": {
-            "type": "boolean",
-            "default": false,
-            "required": true
-        },
-        "items": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.key-value",
-            "required": true,
-            "min": 1
-        }
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "multiple": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.key-value",
+      "required": true,
+      "min": 1
     }
+  }
 }

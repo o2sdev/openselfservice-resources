@@ -1,50 +1,50 @@
 {
-    "collectionName": "components_components_notification_lists",
-    "info": {
-        "displayName": "Notification List",
-        "icon": "expand",
-        "description": ""
+  "collectionName": "components_components_notification_lists",
+  "info": {
+    "displayName": "Notification List",
+    "icon": "expand",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string",
-            "required": false
-        },
-        "subtitle": {
-            "type": "string"
-        },
-        "table": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.table",
-            "required": true
-        },
-        "fields": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.field-mapping",
-            "required": true
-        },
-        "pagination": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.pagination",
-            "required": false
-        },
-        "filters": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.filters"
-        },
-        "noResults": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.banner",
-            "required": true
-        },
-        "detailsURL": {
-            "type": "string"
-        }
+    "subtitle": {
+      "type": "string"
+    },
+    "table": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.table",
+      "required": true
+    },
+    "fields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.field-mapping",
+      "required": true
+    },
+    "pagination": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.pagination",
+      "required": false
+    },
+    "filters": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.filters"
+    },
+    "noResults": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.banner",
+      "required": true
+    },
+    "detailsURL": {
+      "type": "string"
     }
+  }
 }

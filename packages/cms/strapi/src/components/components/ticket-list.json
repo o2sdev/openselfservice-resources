@@ -1,55 +1,55 @@
 {
-    "collectionName": "components_components_ticket_lists",
-    "info": {
-        "displayName": "Ticket List",
-        "description": ""
+  "collectionName": "components_components_ticket_lists",
+  "info": {
+    "displayName": "Ticket List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string"
-        },
-        "subtitle": {
-            "type": "string"
-        },
-        "fields": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.field-mapping",
-            "required": true,
-            "min": 1
-        },
-        "table": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.table",
-            "required": true
-        },
-        "pagination": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.pagination",
-            "required": false
-        },
-        "filters": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.filters"
-        },
-        "detailsURL": {
-            "type": "string",
-            "required": false
-        },
-        "noResults": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.banner",
-            "required": true
-        },
-        "forms": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.link"
-        }
+    "subtitle": {
+      "type": "string"
+    },
+    "fields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.field-mapping",
+      "required": true,
+      "min": 1
+    },
+    "table": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.table",
+      "required": true
+    },
+    "pagination": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.pagination",
+      "required": false
+    },
+    "filters": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.filters"
+    },
+    "detailsURL": {
+      "type": "string",
+      "required": false
+    },
+    "noResults": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.banner",
+      "required": true
+    },
+    "forms": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.link"
     }
+  }
 }

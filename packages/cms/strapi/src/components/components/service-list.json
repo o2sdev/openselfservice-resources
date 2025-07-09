@@ -1,47 +1,47 @@
 {
-    "collectionName": "components_components_service_lists",
-    "info": {
-        "displayName": "Service List",
-        "description": ""
+  "collectionName": "components_components_service_lists",
+  "info": {
+    "displayName": "Service List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string"
-        },
-        "subtitle": {
-            "type": "string"
-        },
-        "fields": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.field-mapping",
-            "required": true
-        },
-        "pagination": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.pagination",
-            "required": false
-        },
-        "filters": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.filters"
-        },
-        "noResults": {
-            "type": "component",
-            "repeatable": false,
-            "component": "content.banner",
-            "required": true
-        },
-        "detailsURL": {
-            "type": "string",
-            "required": false
-        },
-        "detailsLabel": {
-            "type": "string",
-            "required": false
-        }
+    "subtitle": {
+      "type": "string"
+    },
+    "fields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.field-mapping",
+      "required": true
+    },
+    "pagination": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.pagination",
+      "required": false
+    },
+    "filters": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.filters"
+    },
+    "noResults": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.banner",
+      "required": true
+    },
+    "detailsURL": {
+      "type": "string",
+      "required": false
+    },
+    "detailsLabel": {
+      "type": "string",
+      "required": false
     }
+  }
 }

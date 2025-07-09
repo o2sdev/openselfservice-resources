@@ -1,19 +1,19 @@
 {
-    "collectionName": "components_content_navigation_columns",
-    "info": {
-        "displayName": "Navigation Column",
-        "description": ""
+  "collectionName": "components_content_navigation_columns",
+  "info": {
+    "displayName": "Navigation Column",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
     },
-    "options": {},
-    "attributes": {
-        "title": {
-            "type": "string",
-            "required": true
-        },
-        "items": {
-            "type": "component",
-            "repeatable": true,
-            "component": "content.navigation-item"
-        }
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.navigation-item"
     }
+  }
 }
