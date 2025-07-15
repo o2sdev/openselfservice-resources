@@ -18,6 +18,7 @@ This guide will help you set up and run the Strapi CMS from the provided export 
 - Node.js (version 18 or higher)
 - npm or yarn package manager
 - Git
+- TypeScript-based Strapi project in version 5.6 or later
 
 ### Setup Instructions
 
