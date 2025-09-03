@@ -1,0 +1,87 @@
+{
+  "kind": "singleType",
+  "collectionName": "configurable_textss",
+  "info": {
+    "singularName": "configurable-texts",
+    "pluralName": "configurable-textss",
+    "displayName": "Configurable Texts",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "dates": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "labels.dates",
+      "repeatable": false,
+      "required": true
+    },
+    "actions": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "labels.actions",
+      "repeatable": false,
+      "required": true
+    },
+    "errors": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "labels.errors",
+      "repeatable": false,
+      "required": true
+    },
+    "validation": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "labels.validation",
+      "repeatable": false,
+      "required": true
+    },
+    "media": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "labels.media",
+      "repeatable": false,
+      "required": true
+    }
+  }
+}

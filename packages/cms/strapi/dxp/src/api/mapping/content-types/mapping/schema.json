@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mappings",
+  "info": {
+    "singularName": "mapping",
+    "pluralName": "mappings",
+    "displayName": "Mapping",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "noIndex": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "keywords": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.keyword"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "noFollow": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

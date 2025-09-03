@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_components_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "preTitle": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "description": {
+      "type": "richtext",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "sections": {
+      "type": "component",
+      "pluginOptions": {
+        "translate": {
+          "translate": "copy"
+        }
+      },
+      "component": "content.faq-section",
+      "repeatable": true
+    },
+    "oneColumn": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "banner": {
+      "type": "component",
+      "component": "content.banner",
+      "repeatable": false
+    }
+  }
+}

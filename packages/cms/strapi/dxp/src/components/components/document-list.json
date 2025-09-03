@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_document_lists",
+  "info": {
+    "displayName": "Document List"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "documents": {
+      "type": "component",
+      "component": "content.file",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_article_searches",
+  "info": {
+    "displayName": "Article Search",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "inputLabel": {
+      "type": "string"
+    },
+    "noResults": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.banner",
+      "required": true
+    }
+  }
+}

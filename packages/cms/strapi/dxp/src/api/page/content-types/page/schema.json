@@ -1,0 +1,128 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        },
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "unique": true
+    },
+    "SEO": {
+      "type": "component",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        },
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "seo.seo",
+      "repeatable": false,
+      "required": true
+    },
+    "theme": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::theme.theme"
+    },
+    "template": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        },
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "templates.one-column",
+        "templates.two-column"
+      ],
+      "required": true,
+      "min": 1,
+      "max": 1
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::page.page",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "inversedBy": "children"
+    },
+    "children": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "mappedBy": "parent"
+    },
+    "redirect": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "hasOwnTitle": {
+      "type": "boolean",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "default": false
+    },
+    "permissions": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "seo.user-roles",
+      "repeatable": false,
+      "required": false
+    },
+    "showBreadcrumbs": {
+      "type": "boolean",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "required": true,
+      "default": true
+    }
+  }
+}

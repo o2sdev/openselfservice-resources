@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_content_navigation_groups",
+  "info": {
+    "displayName": "Navigation Group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "component": "content.navigation-item",
+      "repeatable": true,
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": false
+    },
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    }
+  }
+}

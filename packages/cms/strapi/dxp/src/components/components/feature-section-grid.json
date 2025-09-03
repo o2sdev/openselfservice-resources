@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_components_feature_section_grids",
+  "info": {
+    "displayName": "Feature Section Grid"
+  },
+  "options": {},
+  "attributes": {
+    "preTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "featureList": {
+      "type": "component",
+      "component": "content.feature-item",
+      "repeatable": true
+    },
+    "inverted": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "iconBorder": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  },
+  "config": {}
+}

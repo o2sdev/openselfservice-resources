@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_labels_media",
+  "info": {
+    "displayName": "media"
+  },
+  "options": {},
+  "attributes": {
+    "play": {
+      "type": "string",
+      "required": true
+    },
+    "pause": {
+      "type": "string",
+      "required": true
+    },
+    "mute": {
+      "type": "string",
+      "required": true
+    },
+    "unmute": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

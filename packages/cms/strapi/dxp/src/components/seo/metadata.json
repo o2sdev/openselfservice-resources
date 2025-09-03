@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_seo_metadata",
+  "info": {
+    "displayName": "metadata"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "description": {
+      "type": "text",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "date": {
+      "type": "datetime"
+    }
+  }
+}

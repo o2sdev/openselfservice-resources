@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_labels_errors",
+  "info": {
+    "displayName": "Errors",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "requestError": {
+      "type": "component",
+      "pluginOptions": {
+        "translate": {
+          "translate": "copy"
+        }
+      },
+      "component": "content.message-simple",
+      "repeatable": false,
+      "required": true
+    }
+  }
+}

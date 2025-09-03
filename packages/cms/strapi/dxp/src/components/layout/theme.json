@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_layout_themes",
+  "info": {
+    "displayName": "Theme"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "personal",
+        "business"
+      ]
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}

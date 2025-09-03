@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_content_banners",
+  "info": {
+    "displayName": "Text Box with Link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "pluginOptions": {
+        "translate": {
+          "translate": "copy"
+        }
+      },
+      "component": "content.link",
+      "repeatable": false
+    },
+    "description": {
+      "type": "richtext",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "altDescription": {
+      "type": "richtext",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    }
+  }
+}

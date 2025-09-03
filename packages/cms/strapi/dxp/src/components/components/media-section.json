@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_components_media_sections",
+  "info": {
+    "displayName": "Media Section"
+  },
+  "options": {},
+  "attributes": {
+    "preTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "links": {
+      "type": "component",
+      "component": "content.link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

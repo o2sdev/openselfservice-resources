@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_labels_validations",
+  "info": {
+    "displayName": "validation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "isRequired": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "isOptional": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    }
+  }
+}

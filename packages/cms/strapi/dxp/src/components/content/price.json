@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_content_prices",
+  "info": {
+    "displayName": "Price"
+  },
+  "options": {},
+  "attributes": {
+    "currency": {
+      "type": "enumeration",
+      "required": true,
+      "default": "USD",
+      "enum": [
+        "USD",
+        "EUR",
+        "GBP",
+        "PLN"
+      ]
+    },
+    "period": {
+      "type": "string"
+    },
+    "value": {
+      "type": "float"
+    }
+  },
+  "config": {}
+}

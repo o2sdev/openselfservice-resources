@@ -1,0 +1,68 @@
+{
+  "collectionName": "components_content_links",
+  "info": {
+    "displayName": "Link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "url": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "copy"
+        }
+      },
+      "required": false
+    },
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page",
+      "pluginOptions": {
+        "translate": {
+          "translate": "copy"
+        }
+      }
+    },
+    "icon": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "copy"
+        }
+      }
+    },
+    "variant": {
+      "type": "enumeration",
+      "required": false,
+      "default": "link",
+      "enum": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "outline",
+        "destructive",
+        "link",
+        "ghost"
+      ]
+    }
+  }
+}

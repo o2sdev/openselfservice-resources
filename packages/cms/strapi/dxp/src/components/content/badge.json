@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_content_badges",
+  "info": {
+    "displayName": "Badge"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "variant": {
+      "type": "enumeration",
+      "required": true,
+      "default": "default",
+      "enum": [
+        "default",
+        "secondary",
+        "destructive",
+        "outline"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_layout_sections",
+  "info": {
+    "displayName": "Section"
+  },
+  "options": {},
+  "attributes": {
+    "spacing": {
+      "type": "enumeration",
+      "required": true,
+      "default": "medium",
+      "enum": [
+        "none",
+        "small",
+        "medium",
+        "large"
+      ]
+    },
+    "background": {
+      "type": "enumeration",
+      "required": true,
+      "default": "none",
+      "enum": [
+        "none",
+        "light",
+        "dark",
+        "brand"
+      ]
+    },
+    "variant": {
+      "type": "enumeration",
+      "required": true,
+      "default": "wide",
+      "enum": [
+        "narrow",
+        "wide",
+        "full"
+      ]
+    },
+    "theme": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::theme.theme"
+    }
+  },
+  "config": {}
+}

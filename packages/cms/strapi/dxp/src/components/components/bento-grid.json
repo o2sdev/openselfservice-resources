@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_components_bento_grids",
+  "info": {
+    "displayName": "Bento Grid"
+  },
+  "options": {},
+  "attributes": {
+    "preTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "items": {
+      "type": "component",
+      "component": "content.card-with-image",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,76 @@
+{
+  "collectionName": "components_components_hero_sections",
+  "info": {
+    "displayName": "Hero Section"
+  },
+  "options": {},
+  "attributes": {
+    "preTitle": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "title": {
+      "type": "string"
+    },
+    "highlightedText": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "subtitle": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "description": {
+      "type": "richtext",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "inverted": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "image": {
+      "type": "media",
+      "pluginOptions": {
+        "translate": {
+          "translate": "copy"
+        }
+      },
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "links": {
+      "type": "component",
+      "component": "content.link",
+      "repeatable": true
+    },
+    "headingType": {
+      "type": "enumeration",
+      "required": false,
+      "default": "h2",
+      "enum": [
+        "h1",
+        "h2"
+      ]
+    }
+  },
+  "config": {}
+}

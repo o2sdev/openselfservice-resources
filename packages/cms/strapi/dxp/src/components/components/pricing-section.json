@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_components_pricing_sections",
+  "info": {
+    "displayName": "Pricing Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "pricingList": {
+      "type": "component",
+      "component": "content.pricing-card",
+      "repeatable": true
+    },
+    "headingType": {
+      "type": "enumeration",
+      "required": true,
+      "default": "h2",
+      "enum": [
+        "h1",
+        "h2"
+      ]
+    }
+  },
+  "config": {}
+}

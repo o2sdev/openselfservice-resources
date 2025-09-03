@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_content_files",
+  "info": {
+    "displayName": "File"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string"
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}

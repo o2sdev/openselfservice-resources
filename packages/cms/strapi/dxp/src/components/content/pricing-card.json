@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_content_pricing_cards",
+  "info": {
+    "displayName": "Pricing Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "isPromoted": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "links": {
+      "type": "component",
+      "component": "content.link",
+      "repeatable": true
+    },
+    "featureListTitle": {
+      "type": "string"
+    },
+    "featureList": {
+      "type": "component",
+      "component": "content.feature-item",
+      "repeatable": true
+    },
+    "price": {
+      "type": "component",
+      "component": "content.price",
+      "repeatable": false
+    },
+    "tags": {
+      "type": "component",
+      "component": "content.badge",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

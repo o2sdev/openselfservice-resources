@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_components_feature_sections",
+  "info": {
+    "displayName": "Feature Section"
+  },
+  "options": {},
+  "attributes": {
+    "preTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "inverted": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "featureList": {
+      "type": "component",
+      "component": "content.feature-item",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "links": {
+      "type": "component",
+      "component": "content.link",
+      "repeatable": true
+    },
+    "iconBorder": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  },
+  "config": {}
+}

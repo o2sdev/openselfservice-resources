@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_content_faq_sections",
+  "info": {
+    "displayName": "FAQ section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "items": {
+      "type": "component",
+      "pluginOptions": {
+        "translate": {
+          "translate": "copy"
+        }
+      },
+      "component": "content.message",
+      "repeatable": true,
+      "required": true
+    }
+  },
+  "config": {}
+}

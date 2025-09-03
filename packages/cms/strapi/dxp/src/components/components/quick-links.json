@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_components_quick_links",
+  "info": {
+    "displayName": "Quick Links",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "preTitle": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "items": {
+      "type": "component",
+      "component": "content.link",
+      "repeatable": true,
+      "required": true,
+      "min": 1
+    }
+  }
+}

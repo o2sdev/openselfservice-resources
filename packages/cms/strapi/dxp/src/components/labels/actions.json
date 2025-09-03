@@ -1,0 +1,218 @@
+{
+  "collectionName": "components_labels_actions",
+  "info": {
+    "displayName": "Actions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "showMore": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "showLess": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "show": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "hide": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "clear": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "apply": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "edit": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "cancel": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "save": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "delete": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "logIn": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "logOut": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "renew": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "settings": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "details": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "close": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "reorder": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "clickToSelect": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "default": " ",
+      "required": true
+    },
+    "trackOrder": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "payOnline": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "showAllArticles": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "on": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    },
+    "off": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "components",
+  "info": {
+    "singularName": "component",
+    "pluralName": "components",
+    "displayName": "Component",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "required": true,
+      "unique": true
+    },
+    "layout": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "layout.section",
+      "repeatable": false,
+      "required": true
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "components.quick-links",
+        "components.category",
+        "components.category-list",
+        "components.article-list",
+        "components.article",
+        "components.article-search",
+        "components.hero-section",
+        "components.faq",
+        "components.media-section",
+        "components.feature-section",
+        "components.cta-section",
+        "components.bento-grid",
+        "components.feature-section-grid",
+        "components.pricing-section",
+        "components.document-list"
+      ],
+      "required": true,
+      "min": 1,
+      "max": 1
+    }
+  }
+}
