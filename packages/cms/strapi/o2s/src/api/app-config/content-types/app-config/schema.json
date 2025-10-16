@@ -19,22 +19,52 @@
     "signedInHeader": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::header.header"
+      "target": "api::header.header",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
     },
     "signedOutHeader": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::header.header"
+      "target": "api::header.header",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
     },
     "signedOutFooter": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::footer.footer"
+      "target": "api::footer.footer",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
     },
     "signedInFooter": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::footer.footer"
+      "target": "api::footer.footer",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "themes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::theme.theme",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
     }
   }
 }
