@@ -1,0 +1,59 @@
+{
+    "name": "@o2s/openselfservice-resources.medusajs.mocked-auth",
+    "version": "0.2.0",
+    "description": "Medusa plugin for third-party JWT authentication. Validates external JWT tokens, integrates with Medusa's Auth Module, and automatically resolves or creates Medusa customers.",
+    "author": "",
+    "license": "MIT",
+    "keywords": [
+        "medusa",
+        "medusa-plugin",
+        "authentication",
+        "jwt",
+        "third-party-auth",
+        "auth-module"
+    ],
+    "main": "./index.ts",
+    "types": "./index.ts",
+    "publishConfig": {
+        "main": "./dist/index.js",
+        "types": "./dist/index.d.ts",
+        "exports": {
+            ".": {
+                "types": "./dist/index.d.ts",
+                "default": "./dist/index.js"
+            },
+            "./types": {
+                "types": "./dist/types/index.d.ts",
+                "default": "./dist/types/index.js"
+            },
+            "./providers": {
+                "types": "./dist/providers/index.d.ts",
+                "default": "./dist/providers/index.js"
+            }
+        }
+    },
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "dependencies": {
+        "jsonwebtoken": "^9.0.2"
+    },
+    "peerDependencies": {
+        "@medusajs/framework": ">=2.0.0",
+        "@medusajs/medusa": ">=2.0.0"
+    },
+    "devDependencies": {
+        "@medusajs/framework": "^2.13.0",
+        "@medusajs/medusa": "^2.13.0",
+        "@types/jsonwebtoken": "^9.0.0",
+        "typescript": "^5.6.0"
+    },
+    "engines": {
+        "node": ">=20"
+    }
+}

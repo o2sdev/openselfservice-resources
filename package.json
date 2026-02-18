@@ -23,7 +23,8 @@
     "workspaces": [
         "packages/*",
         "packages/cms/*",
-        "packages/cms/strapi/*"
+        "packages/cms/strapi/*",
+        "packages/third-party/medusajs/plugins/*"
     ],
     "devDependencies": {
         "@commitlint/cli": "^19.8.1",
